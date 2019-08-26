@@ -1,7 +1,7 @@
 name: 'FRC code tests'
 description: 'Automatically build and test your FRC robot projects'
-icon: check-square
-color: purple
+icon: 'check-square'
+color: 'purple'
 author: 'ewpratten'
 
 inputs: 
