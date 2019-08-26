@@ -7,7 +7,6 @@ RUN apt-get update
 # Install gradle
 RUN apt-get install wget -y
 RUN apt-get install gradle -y
-RUN apt-get remove gradle -y
 RUN wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
 RUN unzip -d /opt/gradle /tmp/gradle-*.zip
 
