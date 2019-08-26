@@ -1,7 +1,11 @@
 #!/bin/sh -l
 
+# Init gradle
+gradle wrapper
+
 chmod +x gradlew
 
+# Check for correct build command
 if [ "$1" = "build" ]; then
     echo "Running only build task"
     ./gradlew build
