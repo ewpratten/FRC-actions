@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 # Init gradle
-gradle wrapper
+/opt/gradle/gradle-5.0/bin/gradle wrapper
 
 chmod +x gradlew
 
