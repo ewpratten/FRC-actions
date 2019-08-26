@@ -1,12 +1,12 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
+name: 'FRC code tests'
+description: 'Automatically build and test your FRC robot projects'
+author: 'ewpratten'
 inputs: 
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+  build_mode:
+    description: 'What should be run? One of: ["all", "build", "unit_test"]'
+    default: 'all'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.myInput }}
+    - ${{ inputs.build_mode }}

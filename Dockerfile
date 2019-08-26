@@ -1,6 +1,14 @@
-FROM alpine:3.10
+FROM openjdk:11-jdk
 
-COPY LICENSE README.md /
+LABEL "maintainer"="Evan Pratten <ewpratten@gmail.com>"
+LABEL "repository"="https://github.com/Ewpratten/FRC-actions"
+LABEL "homepage"="https://github.com/Ewpratten/FRC-actions"
+
+LABEL "com.github.actions.name"="Build & Test"
+LABEL "com.github.actions.description"="Builds robot code, and runs unit tests"
+LABEL "com.github.actions.icon"="play"
+LABEL "com.github.actions.color"="purple"
+
 
 COPY entrypoint.sh /entrypoint.sh
 
