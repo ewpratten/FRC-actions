@@ -25,6 +25,6 @@ The `build_mode` property can be any one of:
 
 --- 
 
-This tool is not affiliated with *FIRST* or @wpilibsuite
+This tool is not affiliated with *FIRST* or [@wpilibsuite](https://github.com/wpilibsuite)
 
-That being said, If anyone from @wpilibsuite thinks this would be a useful project to adopt, let me know via email or an issue.
+That being said, If anyone from [@wpilibsuite](https://github.com/wpilibsuite) thinks this would be a useful project to adopt, let me know via email or an issue.
