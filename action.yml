@@ -1,4 +1,4 @@
-name: 'FRC code tests'
+name: 'FRC Build & Test'
 description: 'Automatically build and test your FRC robot projects'
 branding:
   icon: 'check-square'
