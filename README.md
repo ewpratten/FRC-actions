@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v1.1.1
     - name: FRC Build & Test
       uses: ewpratten/FRC-actions@v1
       with:
