@@ -1,8 +1,9 @@
 name: 'FRC code tests'
 description: 'Automatically build and test your FRC robot projects'
-author: 'ewpratten'
 icon: check-square
 color: purple
+author: 'ewpratten'
+
 inputs: 
   build_mode:
     description: 'What should be run? One of: ["all", "build", "unit_test"]'
