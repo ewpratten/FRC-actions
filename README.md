@@ -5,13 +5,13 @@ This action was designed to give FRC teams a simple way to automatically run tes
 To get this action running in your project, add the following config to `.github/workflows/frcbuild.yml`:
 ```yml
 name: FRC Build & Test
-on: [push]
+on: [push, pull_request]
 
 jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1.1.1
+    - uses: actions/checkout@v2-beta
     - name: FRC Build & Test
       uses: ewpratten/FRC-actions@v1
       with:
